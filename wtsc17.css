@@ -1,0 +1,348 @@
+/*
+
+lightest    #fffbe9     (use as white)       
+light       #fffbe9 	menu-text, menu-link, content-background          
+medium      #b0c4de     body-background     
+dark        #010066     menu-background, content-headers     
+darkest     #211833     (use as black) content-text, content-link     
+
+Hue: 92 Saturation: 100 Brightness: 70
+Base color: #B39100 
+
+Hue: 270 s 35 b 61 base 967acc
+
+*/
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0;
+	background-color: #b0c4de;
+	vertical-align: top;	
+}
+
+body.workshop
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0;
+	background-color: #fffbe9;
+	vertical-align: top;	
+}
+
+.rump
+{
+	opacity: 0.78;
+}
+
+.rump_title
+{
+	font-style: italic;
+}
+
+
+
+td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: left;
+	vertical-align: top;
+}
+
+a:link              { color: #211833; text-decoration: underline }
+a:visited           { color: #211833; text-decoration: underline }
+a:hover             { color: #211833; text-decoration: underline }
+a:active            { color: #211833; text-decoration: underline }
+
+div.header,table.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+    text-align: center;
+}
+
+img.logo {
+  max-height: 25px;
+  max-width: 100px;
+}
+
+img.nsf_logo {
+  max-height: 50px;
+  max-width: 100px;
+}
+
+
+.job{
+    font-style: italic;
+}
+
+.warning{
+  border-style:dashed;
+  border-color:#b0c4de;
+  background-color: #DDDDDD;
+  color: #AA0000;
+}
+
+table.chairs, table.topics, table.pc, table.dates, table.hotel{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.chairs td, table.topics td, table.pc td, table.dates, table.hotel td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.menu               { color: #fffbe9 ; background-color: #010066; }
+
+a.nav_link_unselected{ color: #fffbe9 ; text-decoration: underline; line-height:180% }
+a.nav_link_selected{ color: #fffbe9 ; font-weight: bold; text-decoration: underline; line-height:180% }
+
+div.menu { 
+	margin-left: 0.5em;
+	margin-right: 0.75em;
+	margin-top: 1em;
+	margin-bottom: 1em;	
+	white-space: nowrap;
+}
+
+.deadline {
+ font-style: italic; 
+}
+
+.content { 
+  color: #211833;
+  background-color: #fffbe9;
+}	
+
+#main_content { 
+  color: #211833;
+  background-color: #fffbe9;
+  padding: 20px;
+}	
+
+#main_content_workshop { 
+  color: #211833;
+  background-color: #b0c4de;
+  padding: 20px;
+}	
+
+
+div.content { 
+   margin: 2em;
+}
+
+td.menu {
+   width: 150px;
+}
+
+td.content {
+   width: 650px;
+}
+
+h1, h2, h3, h4  { color: #010066; text-align: center; }
+h5, h6  { color: #010066; text-align: left; margin-top: 2em}
+
+
+ul, dl { list-style: none }
+div.content ul ul {margin-left: 0}
+div.content ul {margin-left: 0}
+
+.date { color: #b0c4de; text-align: left; }
+.time { color: #010066; }
+
+div.event, div.keynote, div.paper, div.panel { color: #010066; font-weight : bold; margin-bottom: 1em;}
+
+
+.paper, .event, .keynote, .panel { color: #211833; font-size: .9em; font-weight : normal; }
+.author, .presenter, .moderator, .panelist { color: #211833; font-style: normal; font-weight : normal; }
+.abstract, .topic { font-style: normal;  }
+.title { font-style: italic; }
+
+.schedule_day{
+color: #008;
+font-weight: bold;
+text-align:center;
+}
+
+.bitcoin_session_time{
+color: #555;
+}
+
+.bitcoin_schedule_time{
+color: #555;
+}
+
+.schedule_time{
+color: #777;
+}
+
+.sponsorship_pane{
+  border-style:solid;
+  border-color:#000000;
+  text-align:center;
+   background-color:#FFF;
+   color:#010066;
+}
+
+.paper_time{
+  background-color: #b0c4de;
+}
+
+.session{
+  background-color: #D3D3FF;
+}
+
+.paper_title{
+color: #004;
+   font-weight: ;
+}
+
+.paper_authors{
+    font-style: italic;
+}
+
+.conference_break{
+    font-weight: bold;
+    color: #008;
+}
+
+.event_title{
+    font-weight: bold;
+    color: #008;
+}
+
+.event_location{
+    font-style: italic;
+}
+
+.rump_trivia{
+    text-align: center;
+    color: #22f;
+}
+
+.schedule_session{
+    font-weight: bold;
+    color: #008;
+    text-align: center;
+}
+
+.schedule_session_chair{
+    font-style: italic;
+    text-align: center;
+}
+
+.tour_left{
+    float: right;
+    max-width: 100px;
+    max-height: 100px;
+    padding-left: 20px;
+}
+
+.tour_left{
+    float: left;
+    max-width: 100px;    
+    max-height: 100px;
+    padding-right: 20px;
+}
+
+
+
+.submit{
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+a.submit:link         { color: red; text-decoration: underline }
+a.submit:visited      { color: red; text-decoration: underline }
+a.submit:hover        { color: red; text-decoration: underline }
+a.submit:active       { color: red; text-decoration: underline }
+
+td.schedule
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: center;
+	vertical-align: top;
+}
+
+table.registration
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.registration td, th
+{
+	padding: 3px 10px 3px 10px;
+}
+
+table.registration th
+{
+	background-color: lightgrey;
+        text-align: center;
+}
+
+table.registration td
+{
+        text-align: right;
+}
+
+.old_registration{
+color: #999;
+}
+
+.headline_sponsor
+{
+font-size: medium;
+margin-bottom: -10px;
+margin-top: -10px;
+}
+
+
+table.hotel
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+img.air_logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+table.dates td
+{
+        text-align: left;
+}
+
+table.dates td, th
+{
+	padding: 3px 10px 3px 10px;
+}
+
+table.hotel
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.hotel td, th
+{
+	padding: 3px 10px 3px 10px;
+}
+
+table.hotel th
+{
+	background-color: lightgrey;
+        text-align: center;
+}
+
+table.hotel td
+{
+        text-align: right;
+}

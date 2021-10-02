@@ -1,0 +1,144 @@
+/*
+
+lightest    #fffbe9     (use as white)       
+light       #fffbe9 	menu-text, menu-link, content-background          
+medium      #b0c4de     body-background     
+dark        #010066     menu-background, content-headers     
+darkest     #211833     (use as black) content-text, content-link     
+
+Hue: 92 Saturation: 100 Brightness: 70
+Base color: #B39100 
+
+Hue: 270 s 35 b 61 base 967acc
+
+*/
+
+body
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	margin: 0;
+	background-color: #b0c4de;
+	vertical-align: top;	
+}
+
+td
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: left;
+	vertical-align: top;
+}
+
+a:link              { color: #211833; text-decoration: underline }
+a:visited           { color: #211833; text-decoration: underline }
+a:hover             { color: #211833; text-decoration: underline }
+a:active            { color: #211833; text-decoration: underline }
+
+
+table.header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 825px;
+}
+
+td.header { 
+	background-image: url(images/fc07-banner.jpg);
+        height: 73px;
+}
+
+p.header {
+        text-align: center;
+}
+
+table.chairs, table.topics, table.pc, table.dates {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.chairs td, table.topics td, table.pc td, table.dates td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.menu               { color: #fffbe9 ; background-color: #010066; }
+a.menu:link         { color: #fffbe9 ; text-decoration: underline }
+a.menu:visited      { color: #fffbe9 ; text-decoration: underline }
+a.menu:hover        { color: #fffbe9 ; text-decoration: underline }
+a.menu:active       { color: #fffbe9 ; text-decoration: underline }
+div.menu { 
+	margin-left: 0.5em;
+	margin-right: 0.75em;
+	margin-top: 1em;
+	margin-bottom: 1em;	
+	white-space: nowrap;
+}
+
+.content            { color: #211833; background-color: #fffbe9; }	
+div.content { 
+   margin: 2em;
+}
+
+td.content {
+   width: 800px;
+}
+
+h1, h2, h3, h4  { color: #010066; text-align: center; }
+h5, h6  { color: #010066; text-align: left; margin-top: 2em}
+
+
+ul, dl { list-style: none }
+div.content ul ul {margin-left: 0}
+div.content ul {margin-left: 0}
+
+.date { color: #b0c4de; text-align: left; }
+.time { color: #010066; }
+
+div.event, div.keynote, div.paper, div.panel { color: #010066; font-weight : bold; margin-bottom: 1em;}
+
+
+.paper, .event, .keynote, .panel { color: #211833; font-size: .9em; font-weight : normal; }
+.author, .presenter, .moderator, .panelist { color: #211833; font-style: normal; font-weight : normal; }
+.abstract, .topic { font-style: normal;  }
+.title { font-style: italic; }
+
+.submit{
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+a.submit:link         { color: red; text-decoration: underline }
+a.submit:visited      { color: red; text-decoration: underline }
+a.submit:hover        { color: red; text-decoration: underline }
+a.submit:active       { color: red; text-decoration: underline }
+
+td.schedule
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	text-align: center;
+	vertical-align: top;
+}
+
+table.registration
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table.registration td, th
+{
+	padding: 3px 10px 3px 10px;
+}
+
+table.registration th
+{
+	background-color: lightgrey;
+        text-align: center;
+}
+
+table.registration td
+{
+        text-align: right;
+}
